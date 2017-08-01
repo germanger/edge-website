@@ -76,14 +76,18 @@
         .nav>li>a {
             padding: 5px 15px;
         }
+        
+        .nav>li.active {
+            background-color: blue;
+        }
     </style>
 </head>
 
-<body style="background-color: #333333" data-spy="scroll" data-target="#navbar">
+<body style="background-color: #333333">
     <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8" style="padding: 50px; background-color: white">
+            <div class="col-md-8" style="padding: 50px; background-color: white" data-spy="scroll" data-target="#navbar">
                 <h1 style="text-align: center">Edge: Projects</h1>
                 
                 <p style="text-align: center; margin-bottom: 70px">
