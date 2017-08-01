@@ -32,6 +32,10 @@
     </script>
 
     <style>
+        body {
+            position: relative;
+        }
+        
         hr { 
             border-top: 1px solid #696565;
             margin-top: 50px;
@@ -78,16 +82,16 @@
         }
         
         .nav>li.active {
-            background-color: blue;
+            background-color: #c2e6f1;
         }
     </style>
 </head>
 
-<body style="background-color: #333333">
+<body style="background-color: #333333" data-spy="scroll" data-target="#menu">
     <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8" style="padding: 50px; background-color: white" data-spy="scroll" data-target="#menu">
+            <div class="col-md-8" style="padding: 50px; background-color: white">
                 <h1 style="text-align: center">Edge: Projects</h1>
                 
                 <p style="text-align: center; margin-bottom: 70px">
@@ -631,28 +635,22 @@
             <div class="col-md-2">
                 <div class="affix" id="menu">
                     <ul class="nav nav-sidebar" style="background-color: white">
-                        <li><span>Cloud</span></li>
+                        <li><span>Cloud (SaaS)</span></li>
                         <li><a href="#receiver">Inspección en destino</a></li>
                         <li><a href="#fresh-fruit">Fruta fresca</a></li>
                         <li><a href="#walnuts">Nueces</a></li>
                         <li><a href="#dte">DTE a PDF</a></li>
-                        <li><span>2014</span></li>
+                        <li><span>Archive</span></li>
                         <li><a href="#mecva">MECVA</a></li>
-                        <li><span>2013</span></li>
                         <li><a href="#eft">EFT Group</a></li>
-                        <li><span>2012</span></li>
                         <li><a href="#mim">MIM</a></li>
                         <li><a href="#gtd">GTD Manquehue</a></li>
                         <li><a href="#fiscal">Impresoras fiscales</a></li>
-                        <li><span>2011</span></li>
                         <li><a href="#farma7">Farma7</a></li>
                         <li><a href="#gestionfarmacia">Gestión de farmacias</a></li>
-                        <li><span>2010</span></li>
                         <li><a href="#bci-softland">BCI / Softland</a></li>
                         <li><a href="#concilbank">Conciliación bancaria</a></li>
-                        <li><span>2005</span></li>
                         <li><a href="#bdavid">Bendavid / Scramble</a></li>
-                        <li><span>2002</span></li>
                         <li><a href="#chiquita">Chiquita Enza</a></li>
                     </ul>
                 </div>
