@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fruit importer software</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+          
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css?v=2" />
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98403818-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Edge: Inspección en destino</h1>
+                <p class="lead">
+                    Software para importadoras de fruta con control de calidad
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Características (<a href="index-en.html">English version</a>)</strong></p>
+                <ul>
+                    <li>Web/cloud (<a href="https://azure.microsoft.com/en-us/" target="_blank"><strong>Microsoft Azure, SLA: 99.95 %</strong></a>)</li>
+                    <li>Multi-lenguaje (español, inglés, etc.)</li>
+                    <li>Importar packing list desde Excel</li>
+                    <li>Plantillas de inspección personalizadas (tolerancias y defectos)</li>
+                    <li>Hacer control de calidad y condición</li>
+                    <li>Puntaje automático</li>
+                    <li>Data-Mining: quién es el mejor productor, etc.</li>
+                    <li>Exportadoras pueden hacer login y revisar inspecciones</li>
+                    <li>Modo offline: hacer inspecciones sin Internet</li>
+                </ul>
+                <p><strong>¿Por qué web y no un software de escritorio?</strong></p>
+                <ul>
+                    <li>Las actualizaciones del software son más fluídas (sin visitas a su oficina)</li>
+                    <li>No requiere equipos de hardware en su oficina (ni un departamento de TI)</li>
+                    <li>Tampoco requiere licencias (Windows, SQL Server, etc.)</li>
+                    <li>La concurrencia de usuarios funciona mejor</li>
+                    <li>No requiere procesos de sincronización (ej. todas las plantas ven la existencia al día)</li>
+                    <li>Usa el software afuera de tu oficina (ej. en tu casa)</li>
+                    <li>Todos nuestros clientes tienen la misma/última versión del software</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Videos</strong></p>
+                <ul>
+                    <li><strong><a href="https://www.youtube.com/watch?v=...." target="_blank">Importar packing list</a></strong></li>
+                    <li><strong><a href="https://www.youtube.com/watch?v=...." target="_blank">Inspección</a></strong></li>
+                    <li><strong><a href="https://www.youtube.com/watch?v=...." target="_blank">Data-Mining</a></strong></li>
+                    <li>...y más videos en el <strong><a href="https://www.youtube.com/channel/UCs0iBJyIwSQqcyxmybOdlBA" target="_blank">Canal de YouTube</a></strong></li>
+                </ul>
+                <p><strong>Clientes</strong></p>
+                <ul>
+                    <li>
+                        <strong><a href="http://www.foreverfreshllc.com" target="_blank">Forever Fresh LLC</a></strong>
+                        <p>
+                            Importadora de fruta de Verfrut y SFG (USA)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.yucay.cl" target="_blank">Yucay</a></strong>
+                        <p>
+                            Exportadora de cerezas (Curicó, Chile)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.agryforest.cl" target="_blank">Agryforest</a></strong>
+                        <p>
+                            Exportadora de arándanos (Los Ángeles, Chile)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.naturalquality.cl" target="_blank">Agrofruta Tocornal</a></strong>
+                        <p>
+                            Exportadora de uvas (San Felipe, Chile)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.sifsa.cl" target="_blank">Servicios Integrales Frutícolas (SIFSA)</a></strong>
+                        <p>
+                            Planta de packing y frío (San Bernardo, Chile)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.sagroup.global" target="_blank">S&A Produce</a></strong>
+                        <p>
+                            Exportadora de arándanos (Santiago, Chile)<br>
+                        </p>
+                    </li>
+                    <li>
+                        <strong><a href="http://www.growex.cl" target="_blank">Growex</a></strong>
+                        <p>
+                            Exportadora de nueces (Isla de maipo, Chile).<br/>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+            <div class="col-md-12">
+                <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="http://www.edge.cl/img/receiver-01.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="http://www.edge.cl/img/receiver-02.png" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="http://www.edge.cl/img/receiver-03.png" alt="" />
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container" style="text-align: center">
+            <p style="margin-top: 40px;">
+                Solicita una demostración a: <strong><a href="mailto:gvicencio@edge.cl">gvicencio@edge.cl</a> / Teléfono: +569 9742 0235</strong><br/>
+                Request a free demo to: <strong><a href="mailto:gvicencio@edge.cl">gvicencio@edge.cl</a> / Phone: +569 9742 0235</strong><br/><br/>
+            </p>  
+            <p>
+                Developed by <strong><a href="http://www.manger.cl">manger.cl</a></strong> and <strong><a href="http://www.edge.cl">edge.cl</a></strong>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
